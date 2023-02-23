@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="css/welcome-css.css">
+    <link rel="stylesheet" href="css/shared/welcome-css.css">
     <?php include('html/navigation.html'); ?>
 </head>
 
