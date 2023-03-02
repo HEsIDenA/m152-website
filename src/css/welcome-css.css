@@ -2,21 +2,31 @@
  @import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css');
  body {
 	 color: #5D5F63;
-	 background: #293949;
+	 background: #D6E7F9;
 	 font-family: 'Open Sans', sans-serif;
 	 padding: 0;
 	 margin: 0;
 	 text-rendering: optimizeLegibility;
 	 -webkit-font-smoothing: antialiased;
 }
+.contentbox {
+	background-color: #D6E7F9;
+	color: #000000;
+	width: 80%;
+    height: 100%;
+    float: right;
+	text-align: center;
+}
  .sidebar-toggle {
 	 margin-left: -240px;
 }
  .sidebar {
-	 width: 240px;
+	 width: 20%;
 	 height: 100%;
 	 background: #293949;
-	 position: absolute;
+	 border-right: #000000;
+	 border-width: 2rem;
+	 position: fixed;
 	 -webkit-transition: all .3s ease-in-out;
 	 -moz-transition: all .3s ease-in-out;
 	 -o-transition: all .3s ease-in-out;
