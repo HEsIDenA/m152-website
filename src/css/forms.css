@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@keyframes wobble {
+    50% {
+        border-radius: 50% 50% 65% 30% / 15% 60% 50% 75%;
+   }
+    100% {
+        border-radius: 55% 30% 70% 15% / 10% 60% 30% 60%;
+   }
+}
+section {
+    background: #D6E7F9;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.blob {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    background: #a044ff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    animation: wobble 15s ease-in-out alternate infinite;
+}
+.blob svg {
+    transform-origin: center center;
+    transform: scale(2);
+}
+.blob svg .small {
+    transform-origin: right bottom;
+    transform: scale(0.75);
+}
+.blob svg .smaller {
+    transform-origin: right bottom;
+    transform: scale(0.6);
+}
+.blob svg .bottom {
+    transform: translate(135px, 125px);
+}
