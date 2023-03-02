@@ -2,11 +2,14 @@ html, body {
     margin: 0;
     padding: 0;
     display: grid;
+    width: 82.5%;
+    height: 100%;
+	align-self: flex-end;
 }
 section {
     margin: 0;
     position: relative;
-    width: 100%;
+    width: 82.5%;
     height: 100%;
     background-color: #c0b3a0;
 }
@@ -18,7 +21,7 @@ section {
 }
 .paralax {
     position: absolute;
-    width: 100%;
+    width: 82.5%;
     height: 50%;
     overflow: hidden;
     background: url("http://www.testomic.com/public/codepen-assets/img/paralax/background.jpg");
